@@ -105,5 +105,5 @@ We use **spaCy** library to train on the given dataset.
 ## Acknowledgments
 
 - [spaCy](https://spacy.io/)
-- Example data provided by Mahima Singh.
+- Example data provided by Pinki Kumari.
 
