@@ -94,7 +94,7 @@ We use **spaCy** library to train on the given dataset.
 
 1. Install spaCy: `pip install spacy`
 2. Install spaCy English model: `python -m spacy download en_core_web_sm`
-3. Clone this GitHub repository: `git clone <repository_url>`
+3. Clone this GitHub repository: `git clone <(https://github.com/PinkiKumari22/legal_challenge.git)>`
 4. Navigate to the project directory: `cd legal-entity-recognition`
 
 ## Usage
