@@ -4,16 +4,24 @@ import spacy
 import os
 import json
 from spacy.training.example import Example
-
+import sys
+from pathlib import Path
 # # Load the pre-trained spaCy model
 # !python3 -m spacy download en_core_web_sm
 
 nlp = spacy.load("en_core_web_sm")
 
+
+train_data =  str(sys.argv[1])
+test_data = str(sys.argv[2])
+#if no arguments are given, use the default as above
+if len(sys.argv) == 1:
+    train_data = "6_3.json"
+    test_data = "06_9.json"
 # Load the training data from the JSON file
-with open("datasets/6_3.json", "r") as file:
+with open("datasets/"+train_data, "r") as file:
     TRAIN_DATA = json.load(file)
-with open("datasets/06_9.json", "r") as file:
+with open("datasets/"+test_data, "r") as file:
     TEST_DATA = json.load(file)
 
 model = None
