@@ -73,7 +73,7 @@ Default setting are: training json is **6_3.json**  snd test json is **06_9.json
 
 ## Jupyter Notebooks:
 1. the notebook _challenge.ipynb_ has teh demo code to train and test a trained model on the given dataset
-2. _EDA_smartSense.ipynb_ notebook for EDA on teh dataset.
+2. _EDA_smartSense.ipynb_ notebook for EDA on the dataset.
 
 # Solution Approach
 We use **spaCy** library to train on the given dataset.
