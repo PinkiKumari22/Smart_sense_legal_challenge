@@ -102,8 +102,28 @@ We use **spaCy** library to train on the given dataset.
 1. Prepare your training data in the JSON format as shown in the example.
 2. Execute the provided Jupyter Notebook to train and test the spaCy NER model.
 
+## EDA analysis(before preprocessing on train dataset)
+
+1. The train data contains four columns, where Column3, Column4 have mostly NAN values and only 17 not NAN values are there.
+2. So, mostly plots I did for Column1,Column2.
+3. The large count values for column1 are occuring for:
+                   the                357
+                   of                 212
+                   to                 155
+                   in                 111
+                   Sharman            101
+4. The large count values for column2 are occuring for:
+                    Others               3638
+                   I-Versus              105
+                    B-person              91
+                    L-person              91
+                    B-Organization        77
+                   L-Organization         77
+5. Using the scatter plot for column1 and column2, we can observe that these columns are not correlated, the  points are scattered all over the graph, also showed the frequency heatmap.
+6. The countplot shows the data is highly imbalanced.
+
 ## Acknowledgments
 
 - [spaCy](https://spacy.io/)
-- Example data provided by Mahi Singh.
+- Example data provided by Pinki Kumari.
 
