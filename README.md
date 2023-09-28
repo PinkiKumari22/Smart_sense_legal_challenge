@@ -47,6 +47,21 @@ the Others
 Mareva Others
 ```
 
+# Running the Script
+
+To execute the script, follow these steps in your terminal or command prompt:
+
+1. Download the spaCy English model:
+
+   ```bash
+   python3 -m spacy download en_core_web_sm
+   ```
+2. Run the script "challenge.py" :
+   ```bash
+   python3 challenge.py
+   ```
+
+
 ## Jupyter Notebooks:
 1. the notebook _challenge.ipynb_ has teh demo code to train and test a trained model on the given dataset
 2. other notebook for EDA
