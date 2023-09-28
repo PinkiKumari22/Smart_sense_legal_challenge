@@ -47,6 +47,10 @@ the Others
 Mareva Others
 ```
 
+## Jupyter Notebooks:
+1. the notebook _challenge.ipynb_ has teh demo code to train and test a trained model on the given dataset
+2. other notebook for EDA
+
 # Solution Approach
 We use **spaCy** library to train on the given dataset.
 
