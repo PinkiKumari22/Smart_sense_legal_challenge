@@ -57,9 +57,18 @@ To execute the script, follow these steps in your terminal or command prompt:
    python3 -m spacy download en_core_web_sm
    ```
 2. Run the script "challenge.py" :
+   Running the Script with Command-Line Arguments
+   You can run the script "challenge.py" with custom training and test data files using command-line arguments. By default, the script uses "6_3.json" as the training data and "06_9.json" as the test data. To specify custom data files, follow the format:
+
+```bash
+python3 challenge.py <training_data.json> <test_data.json>
+```
+Default setting are: training json is **6_3.json**  snd test json is **06_9.json** and can run as
    ```bash
    python3 challenge.py
    ```
+
+
 
 
 ## Jupyter Notebooks:
